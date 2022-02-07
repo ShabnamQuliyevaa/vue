@@ -1,0 +1,33 @@
+body {
+    background-color: #FFFA59;
+}
+
+
+#app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+#app input {
+    border-radius: 5px;
+   
+    outline: none;
+    padding: 15px;
+    width: 250px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#app button {
+    border: none;
+    color: #fff;
+    background-color: #59B2FF;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+}
